@@ -1,0 +1,68 @@
+
+material redTorus
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.65 0 0 1
+			specular 0.5 0.5 0.5 1 89.6
+		}
+
+	}
+
+}
+
+
+
+material yellowTorus
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 0.988667 0 1
+			specular 0.5 0.5 0.5 1 89.6
+		}
+
+	}
+
+}
+
+
+
+material greenTorus
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.581132 1 0.554 1
+			specular 0.5 0.5 0.5 1 89.6
+		}
+
+	}
+
+}
+
+
+
+material blueTorus
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0.342333 1 1
+			specular 0.5 0.5 0.5 1 89.6
+		}
+
+	}
+
+}
+
+

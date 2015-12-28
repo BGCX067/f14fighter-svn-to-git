@@ -1,0 +1,40 @@
+
+material f14_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture f14texture.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material f14_mat1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture f14texture2.jpg
+			}
+		}
+
+	}
+
+}
+
+

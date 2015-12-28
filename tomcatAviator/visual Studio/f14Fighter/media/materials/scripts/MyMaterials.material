@@ -1,0 +1,24 @@
+material myMaterials/water
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture Water01.jpg
+				scroll_anim 0.1 0.05
+			}
+
+			texture_unit
+			{
+				texture Water01.jpg
+				wave_xform scroll_y sine 0 0.1 0 0.5
+			}
+		}
+	}
+}

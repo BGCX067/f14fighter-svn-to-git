@@ -1,0 +1,56 @@
+
+material f14_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			specular 0.5 0.5 0.5 1 92.0371
+
+			texture_unit
+			{
+				texture f14texture4.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material f14_fenster
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.3195 0.410953 0.5 1
+			specular 0.5 0.5 0.5 1 89.6
+		}
+
+	}
+
+}
+
+
+material f14_mat1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture f14texture3.jpg
+			}
+		}
+
+	}
+
+}
+

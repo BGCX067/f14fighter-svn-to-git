@@ -1,0 +1,201 @@
+particle_system F14/Explosion
+{
+	quota	300
+	material	ringflare
+	particle_width	100
+	particle_height	100
+	cull_each	false
+	renderer	billboard
+	sorted	false
+	local_space	false
+	iteration_interval	0
+	nonvisible_update_timeout	0
+	billboard_type	point
+	billboard_origin	center
+	billboard_rotation_type	texcoord
+	common_up_vector	0 1 0
+	point_rendering	false
+	accurate_facing	false
+
+	emitter Point
+	{
+		angle	180
+		colour	1 1 0 1
+		colour_range_start	1 1 0 1
+		colour_range_end	1 0 0.501961 1
+		direction	0 1 0
+		emission_rate	300
+		position	0 0 0
+		velocity	200
+		velocity_min	150
+		velocity_max	200
+		time_to_live	2.99
+		time_to_live_min	2.99
+		time_to_live_max	2.99
+		duration	1
+		duration_min	1
+		duration_max	1
+
+	}
+
+	affector ColourFader2
+	{
+		red1	-0.6386
+		green1	-0.3031
+		blue1	0.5104
+		alpha1	1
+		red2	0
+		green2	0
+		blue2	0
+		alpha2	1
+		state_change	0.5
+	}
+}
+// Example emitted emitters
+particle_system F14/redExplotion
+{
+    material Examples/Flare
+    point_rendering            false
+    particle_width             10
+    particle_height            10
+    cull_each                  false
+    quota                      100
+    emit_emitter_quota         10
+    billboard_type             point
+    
+    emitter Point
+    {
+        angle                   180
+        emission_rate           1000
+        time_to_live            5
+        direction               0 1 0
+        velocity                80
+        duration                0.1
+
+    }
+
+    // Make em float downwards
+    affector LinearForce
+    {
+        force_vector            0 -50 0
+        force_application       add
+    }
+
+    // Give em some nice colours
+    affector ColourInterpolator
+    {
+        time0                   0
+        colour0                 0.65 0 0
+    }
+}
+// Example emitted emitters
+particle_system F14/greenExplotion
+{
+    material Examples/Flare
+    point_rendering            false
+    particle_width             10
+    particle_height            10
+    cull_each                  false
+    quota                      100
+    emit_emitter_quota         10
+    billboard_type             point
+    
+    emitter Point
+    {
+        angle                   180
+        emission_rate           1000
+        time_to_live            5
+        direction               0 1 0
+        velocity                80
+        duration                0.1
+
+    }
+
+    // Make em float downwards
+    affector LinearForce
+    {
+        force_vector            0 -50 0
+        force_application       add
+    }
+
+    // Give em some nice colours
+    affector ColourInterpolator
+    {
+        time0                   0
+        colour0                 0.581132 1 0.554
+    }
+}
+// Example emitted emitters
+particle_system F14/blueExplotion
+{
+    material Examples/Flare
+    point_rendering            false
+    particle_width             10
+    particle_height            10
+    cull_each                  false
+    quota                      100
+    emit_emitter_quota         10
+    billboard_type             point
+    
+    emitter Point
+    {
+        angle                   180
+        emission_rate           1000
+        time_to_live            5
+        direction               0 1 0
+        velocity                80
+        duration                0.1
+
+    }
+
+    // Make em float downwards
+    affector LinearForce
+    {
+        force_vector            0 -50 0
+        force_application       add
+    }
+
+    // Give em some nice colours
+    affector ColourInterpolator
+    {
+        time0                   0
+        colour0                 0 0.342333 1
+    }
+}
+// Example emitted emitters
+particle_system F14/yellowExplotion
+{
+    material Examples/Flare
+    point_rendering            false
+    particle_width             10
+    particle_height            10
+    cull_each                  false
+    quota                      100
+    emit_emitter_quota         10
+    billboard_type             point
+    
+    emitter Point
+    {
+        angle                   180
+        emission_rate           1000
+        time_to_live            5
+        direction               0 1 0
+        velocity                80
+        duration                0.1
+
+    }
+
+    // Make em float downwards
+    affector LinearForce
+    {
+        force_vector            0 -50 0
+        force_application       add
+    }
+
+    // Give em some nice colours
+    affector ColourInterpolator
+    {
+        time0                   0
+        colour0                 1 0.988667 0
+    }
+}

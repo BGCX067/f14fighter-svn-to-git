@@ -1,0 +1,326 @@
+
+material lambert1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.5 0.5 0.5 1
+		}
+
+	}
+
+}
+
+
+
+material particleCloud1
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
+
+material asphalt
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				scale 0.1 0.1
+				texture AsphaltCloseups0048_3_S.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material blinn1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.303 0.427373 0.5 1
+			specular 0.5 0.5 0.5 1 89.6
+		}
+
+	}
+
+}
+
+
+
+material anisotropic1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.69422 0 0 1
+		}
+
+	}
+
+}
+
+
+
+material street2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture file1-street1.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material lambert8
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture file4-pPipe7.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material lambert5
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture file4-pCylinder8.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material lambert6
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture file5-pCylinder8.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material turm1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture file12-pCylinder3.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material grass1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				scale 0.03 0.03
+				texture file2-_startbahn_startbahn.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material lambert10
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture file5-_startbahn_startbahn.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material lambert12
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture file16-_startbahn_startbahn.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material lambert13
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture file16-pCube9.jpg
+			}
+		}
+
+	}
+
+}
+
+
+
+material lambert14
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture Sand.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material lambert16
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture Sand.png
+			}
+		}
+
+	}
+
+}
+
+
+
+material lambert17
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+
+			texture_unit
+			{
+				texture Sand.png
+				scale 0.05 0.05
+			}
+		}
+
+	}
+
+}
+
+
